@@ -1,0 +1,10 @@
+[package]
+name = "ssl-self-signed"
+version = "0.1.0"
+author = ["Paul A. Jungwirth <pj@illuminatedcomputing.com>"]
+
+[dependencies]
+hyper = "0.10.5"
+hyper-openssl = "0.2.3"
+openssl = "0.9.10"
+

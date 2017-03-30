@@ -1,0 +1,5 @@
+/localhost.key
+/localhost.crt
+/localhost.pfx
+/.vagrant
+/client/target
