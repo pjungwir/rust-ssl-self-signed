@@ -11,7 +11,6 @@ Vagrant.configure("2") do |config|
   # config.vm.box_version = '0.1.0'
 
   config.ssh.forward_agent = true
-  config.omnibus.chef_version = '12.18.31'
 
   config.vm.define "client" do |host|
     host.vm.network :private_network, ip: "192.168.48.11"
